@@ -1,0 +1,755 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Alexey Kineev">
+  <title>Рошаль Онлайн. Первый городской оператор связи.</title>
+  <!-- Icons -->
+  <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/img/icon_144.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/img/icon_114.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/img/icon_72.png">
+  <link rel="apple-touch-icon-precomposed" href="assets/img/icon_57.png">
+  <!-- End icons -->
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/contacts.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300">
+  <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="assets/css/jquery.emoji.css">
+  <!-- End styles -->
+</head>
+
+<body>
+  <div class="baron__track">
+    <div class="baron__bar"></div>
+  </div>
+  <!-- Navbar section -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+      <img class="navbar-brand" src="assets/img/logo.png" alt="" width="110" height="45">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="home.html">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">О компании</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Услуги</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">Новости</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="clients.html">Клиентам</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contacts.html">Контакты</a>
+          </li>
+        </ul>
+        <div class="lc-button mt-2 mt-md-0">
+          <a class="nav-link" href="#">
+            <i class="fas fa-user-circle lc-icon"></i>
+            Личный кабинет
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- End navbar section -->
+
+  <!-- Company location section -->
+  <div class="map-section-wrapper">
+    <div class="fixed-map-section">
+      <script type="text/javascript" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa432843650d7dc4ffa9aa27edaf0a30bf3a176bf15a2d79ee3f3d708a53a9878&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;scroll=false"></script>
+    </div>
+  </div>
+  <div class="container-fluid location-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-5 offset-lg-7 location-col">
+          <i class="far fa-eye-slash hide-location-plate-btn" data-toggle="tooltip" data-placement="bottom" title="Скрыть адресную панель"
+            data-state="showed"></i>
+          <div class="location-plate">
+            <div class="location-header">Основная контактная информация</div>
+            <hr>
+            <div class="location-block">
+              <div class="location-block-name">
+                <i class="fas fa-map-marker-alt"></i>
+                Адрес компании :
+              </div>
+              <div class="location-block-body">
+                Россия, Московская область: 140730 г. Рошаль, ул. Косякова, д. 13
+              </div>
+            </div>
+            <div class="location-block">
+              <div class="location-block-name">
+                <i class="fas fa-fax"></i>
+                Контактный телефон :
+              </div>
+              <div class="location-block-body">
+                <a href="tel:+74964558105" id="supportPhone" data-toggle="tooltip" data-placement="bottom" title="Специалисты онлайн">
+                  8-(496)-455-81-05 (клиентская служба),
+                </a>
+                <a href="tel:+74964558109" data-toggle="tooltip" data-placement="bottom" title="Работает круглосуточно">
+                  8-(496)-455-81-09 (факс)
+                </a>
+              </div>
+            </div>
+            <div class="location-block">
+              <div class="location-block-name">
+                <i class="fas fa-at"></i>
+                Электронный адрес :
+              </div>
+              <div class="location-block-body">
+                <a href="mailto:info@roshalonline.ru?subject=Информационный%20запрос%20от%20пользователя%20roshalonline.ru"
+                  data-toggle="tooltip" data-placement="bottom" title="Отправить электронное письмо">
+                  info@roshalonline.ru
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Mobile location plate section -->
+  <div class="container-fluid mobile-sm-location-container">
+    <div class="container">
+      <div class="mobile-sm-location-col">
+        <div class="location-plate">
+          <div class="location-header">Основная контактная информация</div>
+          <hr>
+          <div class="location-block">
+            <div class="location-block-name">
+              <i class="fas fa-map-marker-alt"></i>
+              Адрес компании :
+            </div>
+            <div class="location-block-body">
+              Россия, Московская область: 140730 г. Рошаль, ул. Косякова, д. 13
+            </div>
+          </div>
+          <div class="location-block">
+            <div class="location-block-name">
+              <i class="fas fa-fax"></i>
+              Контактный телефон :
+            </div>
+            <div class="location-block-body">
+              <a href="tel:+74964558105">
+                8-(496)-455-81-05 (клиентская служба),
+              </a>
+              <a href="tel:+74964558109">
+                8-(496)-455-81-09 (факс)
+              </a>
+            </div>
+          </div>
+          <div class="location-block">
+            <div class="location-block-name">
+              <i class="fas fa-at"></i>
+              Электронный адрес :
+            </div>
+            <div class="location-block-body">
+              <a href="mailto:info@roshalonline.ru?subject=Информационный%20запрос%20от%20пользователя%20roshalonline.ru"
+                id="emailMainInfo">
+                info@roshalonline.ru
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End mobile location plate section -->
+  <!-- End company location section -->
+
+  <!-- Company bank details section -->
+  <div class="container-fluid bank-details-section">
+    <div class="container bank-details-conatiner">
+      <h6 class="section-header">Реквизиты</h6>
+      <hr class="section-header-hr" />
+      <div class="row info-plates">
+        <div class="col-lg-4 col-12 info-plate">
+          <div class="info-plate-header">
+            <span>Общая информация</span>
+          </div>
+          <div class="info-plate-body plate-body-4">
+            <div class="plate-body-annotation">
+              Общие юридические сведения компании Рошаль Оналйн. Скопируйте в буфер обмена необходимый элемент, кликнув
+              по нему,
+              либо скачайте pdf йайл с реквизитами, кликнув соответсвующую конпку.
+            </div>
+            <ul class="plate-body-list">
+              <li>
+                <div class="bank-detail-item">
+                  <div>
+                    <span class="bank-detail-name" data-toggle="tooltip" data-placement="right" title="Скопировать">Полное
+                      наименование</span>
+                  </div>
+                  <div class="bank-detail">
+                    Общество с ограниченной ответственностью "Альтес-Р"
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="bank-detail-item">
+                  <div>
+                    <span class="bank-detail-name" data-toggle="tooltip" data-placement="right" title="Скопировать">Юридический
+                      адрес</span>
+                  </div>
+                  <div class="bank-detail">
+                    140730, Московская область, г.Рошаль, ул.Косякова, д.13
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="bank-detail-item">
+                  <div>
+                    <span class="bank-detail-name" data-toggle="tooltip" data-placement="right" title="Скопировать">Фактический
+                      адрес</span>
+                  </div>
+                  <div class="bank-detail">
+                    140730, Московская область, г.Рошаль, ул.Косякова, д.13
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="bank-detail-item">
+                  <div class="bank-detail-name" title="Скопировать">
+                    <span class="bank-detail-name" data-toggle="tooltip" data-placement="right" title="Скопировать">ОКВЭД</span>
+                  </div>
+                  <div class="bank-detail">
+                    64.20.11
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="bank-detail-item">
+                  <div>
+                    <span class="bank-detail-name" data-toggle="tooltip" data-placement="right" title="Скопировать">КПП</span>
+                  </div>
+                  <div class="bank-detail">
+                    5055002574
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="bank-detail-item">
+                  <div>
+                    <span class="bank-detail-name" data-toggle="tooltip" data-placement="right" title="Скопировать">ИНН</span>
+                  </div>
+                  <div class="bank-detail">
+                    505501001
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="bank-detail-item">
+                  <div>
+                    <span class="bank-detail-name" data-toggle="tooltip" data-placement="right" title="Скопировать">ОГРН</span>
+                  </div>
+                  <div class="bank-detail">
+                    10 250 064 68 816
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="info-plate-footer">
+            <span class="download-document" data-source-pdf="static/files/test-bank-details.pdf">Скачать файл с
+              реквизитами</span>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12 info-plate">
+          <div class="info-plate-header">
+            <span>Платежные реквизиты ПАО "Банк"</span>
+          </div>
+          <div class="info-plate-body plate-body-4">
+            <div class="plate-body-annotation">
+              Рекзиты рублевого счета компании Рошаль Оналйн в ПАО "Сбербанк". Скопируйте в буфер обмена необходимый
+              элемент, кликнув по нему,
+              либо скачайте pdf йайл с реквизитами, кликнув соответсвующую конпку.
+            </div>
+            <ul class="plate-body-list">
+              <li>
+                <div class="bank-detail-item">
+                  <div>
+                    <span class="bank-detail-name" data-toggle="tooltip" data-placement="right" title="Скопировать">Полное
+                      наименование банка</span>
+                  </div>
+                  <div class="bank-detail">
+                    Сбербанк России ПАО г. Москва
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="bank-detail-item">
+                  <div>
+                    <span class="bank-detail-name" data-toggle="tooltip" data-placement="right" title="Скопировать">Место
+                      нахождения учреждения</span>
+                  </div>
+                  <div class="bank-detail">
+                    Россия, Москва, 117997, ул. Вавилова, д. 19
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="bank-detail-item">
+                  <div>
+                    <span class="bank-detail-name" data-toggle="tooltip" data-placement="right" title="Скопировать">Расчетный
+                      счет</span>
+                  </div>
+                  <div class="bank-detail">
+                    40702810740460000716
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="bank-detail-item">
+                  <div>
+                    <span class="bank-detail-name" data-toggle="tooltip" data-placement="right" title="Скопировать">Корреспондентский
+                      счет</span>
+                  </div>
+                  <div class="bank-detail">
+                    30101810400000000225
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="bank-detail-item">
+                  <div>
+                    <span class="bank-detail-name" data-toggle="tooltip" data-placement="right" title="Скопировать">КПП</span>
+                  </div>
+                  <div class="bank-detail">
+                    770545001
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="bank-detail-item">
+                  <div>
+                    <span class="bank-detail-name" data-toggle="tooltip" data-placement="right" title="Скопировать">БИК</span>
+                  </div>
+                  <div class="bank-detail">
+                    044525225
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="info-plate-footer">
+            <span class="download-document" data-source-pdf="static/files/test-bank-details.pdf">Скачать файл с
+              реквизитами</span>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12 info-plate">
+          <div class="info-plate-header">
+            <span>Платежные реквизиты ПАО "Банк Возрождение"</span>
+          </div>
+          <div class="info-plate-body plate-body-4">
+            <div class="plate-body-annotation">
+              Рекзиты рублевого счета компании Рошаль Оналйн в ОАО "Возрождение". Скопируйте в буфер обмена необходимый
+              элемент, кликнув по нему,
+              либо скачайте pdf йайл с реквизитами, кликнув соответсвующую конпку.
+            </div>
+            <ul class="plate-body-list">
+              <li>
+                <div class="bank-detail-item">
+                  <div>
+                    <span class="bank-detail-name" data-toggle="tooltip" data-placement="right" title="Скопировать">Полное
+                      наименование банка</span>
+                  </div>
+                  <div class="bank-detail">
+                    Дополнительный офис "Шатурский" Банка "Возрождение" (ПАО)
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="bank-detail-item">
+                  <div>
+                    <span class="bank-detail-name" data-toggle="tooltip" data-placement="right" title="Скопировать">Место
+                      нахождения учреждения</span>
+                  </div>
+                  <div class="bank-detail">
+                    Россия, Москва, 101000, Лучников переулок, д. 7/4, с. 1
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="bank-detail-item">
+                  <div>
+                    <span class="bank-detail-name" data-toggle="tooltip" data-placement="right" title="Скопировать">Расчетный
+                      счет</span>
+                  </div>
+                  <div class="bank-detail">
+                    40702810605810142841
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="bank-detail-item">
+                  <div>
+                    <span class="bank-detail-name" data-toggle="tooltip" data-placement="right" title="Скопировать">Корреспондентский
+                      счет</span>
+                  </div>
+                  <div class="bank-detail">
+                    30101810900000000181
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="bank-detail-item">
+                  <div>
+                    <span class="bank-detail-name" data-toggle="tooltip" data-placement="right" title="Скопировать">КПП</span>
+                  </div>
+                  <div class="bank-detail">
+                    770101001
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="bank-detail-item">
+                  <div>
+                    <span class="bank-detail-name" data-toggle="tooltip" data-placement="right" title="Скопировать">БИК</span>
+                  </div>
+                  <div class="bank-detail">
+                    044525181
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="info-plate-footer">
+            <span class="download-document" data-source-pdf="static/files/test-bank-details.pdf">Скачать файл с
+              реквизитами</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End company bank details section -->
+
+  <!-- Contact form section -->
+  <div class="container-fluid contact-form-section">
+    <div class="container contact-form-container">
+      <h6 class="form-header">Форма обратной связи</h6>
+      <div class="form-annotation">
+        <p>
+          Данная форма является официальным способом обратной связи клиентов с командой Рошаль Онлайн.
+          Отправьте корректно заполненную форму, предаврительно выберав тематику обращения и указав существующие
+          контактные данные,
+          и ответственный специалист Рошаль Оналйн обязательно с Вами свяжется. Обратите внимание, что отправляя данную
+          форму, Вы
+          согалшаетесь с
+          <a href="#" data-toggle="modal" data-target="#PDNTextModal">положением</a>
+          об обработке и хранении персональных данных оператором связи "Альтес-Р".
+        </p>
+      </div>
+      <div class="contact-form-container">
+        <form id="contactForm">
+          <div class="form-row justify-content-center">
+            <div class="form-group col-lg-4 col-sm-8">
+              <input type="text" class="form-control contact-form-input requare-input" data-error-id="firstNameError"
+                id="firstNameInput" pattern="[А-Яа-яЁё]{1,30}" maxlength="30" placeholder="Ваша фамилия">
+              <div class="error-input-container" id="firstNameError">
+                <span>Укажите фамилию в корректном формате</span>
+              </div>
+              <input type="text" class="form-control contact-form-input requare-input" data-error-id="lastNameError" id="lastNameInput"
+                pattern="[А-Яа-яЁё]{1,30}" maxlength="30" placeholder="Ваше имя">
+              <div class="error-input-container" id="lastNameError">
+                <span>Укажите имя в корректном формате</span>
+              </div>
+              <input type="text" class="form-control contact-form-input" data-error-id="thirdNameError" id="thirdNameInput"
+                pattern="[А-Яа-яЁё]{1,30}" maxlength="30" placeholder="Ваше отчество (при наличии)">
+              <div class="error-input-container" id="thirdNameError">
+                <span>Укажите отчество в корркетном формате</span>
+              </div>
+              <input type="tel" class="form-control contact-form-input requare-input" data-error-id="phoneInputError"
+                id="phoneInput" maxlength="15" placeholder="Ваш телефон в формате 8-ХХХ-ХХХ-ХХ-ХХ">
+              <div class="error-input-container" id="phoneInputError">
+                <span>Укажите номер в корректном формате</span>
+              </div>
+              <input type="text" class="form-control contact-form-input" data-error-id="emailInputError" id="emailInput"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Ваша электронная почта (при наличии)"
+                maxlength="50">
+              <div class="error-input-container" id="emailInputError">
+                <span>Укажите электронный адрес в корректном формате</span>
+              </div>
+            </div>
+
+            <div class="form-group col-lg-4 col-sm-8">
+              <textarea class="form-control message-area requare-input" data-error-id="messageTextError" id="messageTextArea"
+                rows="11" maxlength="3000" placeholder="Текст сообщения (не более 1000 символов)"></textarea>
+              <div class="error-input-container" id="messageTextError">
+                <span>Корректно укажите текст обращения</span>
+              </div>
+            </div>
+          </div>
+          <div class="form-footer">
+            <div class="row justify-content-center">
+              <div class="col-lg-5 col-12 form-comments">
+                <div class="status-contact-form">
+                  Для отправки формы заполните обязательные поля и кликните "Оправить".
+                </div>
+              </div>
+              <div class="col-lg-3 col-12 form-buttons">
+                <div class="d-inline clear-form-btn">
+                  <i class="fas fa-sync-alt" data-toggle="tooltip" data-placement="left" title="Очистить форму"></i>
+                </div>
+                <div class="d-inline submit-form-btn">Отправить</div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+  <!-- End contact form scetion -->
+
+  <!-- PDN text document modal -->
+  <div class="modal fade" id="PDNTextModal" tabindex="-1" role="dialog" aria-labelledby="PDNTextModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="modal-title" id="PDNTextModalTitle">Положение об обработке персональных данных ООО "Альтес-Р"</span>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>1. Common</p>
+
+          <p>
+            1.1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur dignissimos, optio
+            aliquid, reiciendis laborum facere ex a quisquam ipsum perspiciatis nisi veritatis explicabo,
+            tempora totam quia asperiores illo officiis. Recusandae praesentium architecto ipsam expedita
+            natus aut quidem amet cumque, tempora similique assumenda, aspernatur illum ad voluptatem magni
+            illo exercitationem cupiditate earum explicabo dignissimos enim omnis dicta consequatur.
+            Quaerat fuga ad eaque eligendi? Minima consequuntur quasi delectus voluptatibus non laudantium
+            expedita reiciendis, deserunt possimus consequatur autem in nesciunt aliquam tempora quisquam
+            omnis itaque voluptatum incidunt id optio minus libero. Magni perferendis, error ea consequatur
+            possimus repudiandae nobis accusantium nihil voluptas vero architecto veniam quam quidem amet
+            nam iusto totam? Sapiente tempore vel eos minima asperiores, molestias cum placeat velit labore
+            inventore.
+          </p>
+          <p>
+            1.2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem unde optio, odit
+            quaerat
+            molestias assumenda pariatur, facilis veritatis laboriosam mollitia voluptate sunt labore
+            nostrum expedita vitae modi doloribus blanditiis quasi fugit obcaecati? Eos, iste odit!
+          </p>
+          <p>
+            1.3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, nemo. Omnis, nemo qui
+            delectus eveniet voluptatum vero earum quod, dicta fugiat aliquam autem corporis. Dicta, ea
+            dolorum. Eius ea iste odit, est iure, quos quas incidunt vel laboriosam et, provident in. Eius,
+            temporibus. Facilis itaque porro earum? Consequuntur ut voluptas, excepturi ipsam, aliquam
+            quaerat a nobis, consequatur inventore tempora expedita aut non autem quibusdam sequi? Rem sed
+            dolorum totam eum modi, veritatis ea corporis eius! Amet, atque!
+          </p>
+
+
+          <p>2. Terms</p>
+
+          <p>
+            2.1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero quae dolorum quas
+            reiciendis
+            iste aut illo, soluta error dolorem molestiae excepturi ex quisquam unde, pariatur et quos?
+            Quas rerum sapiente delectus vitae eligendi repudiandae ipsum. Fuga voluptatibus, natus
+            eligendi nemo molestias distinctio voluptate beatae dignissimos amet similique error debitis
+            odit iusto ratione neque vero alias iste facere enim eum maxime qui? Excepturi aliquam
+            temporibus porro rerum deserunt facere, officia nostrum ipsa, dolorem, beatae laboriosam
+            laborum provident est maiores vero odio voluptate doloremque alias reprehenderit. Fugiat velit
+            ratione fugit magni? Nam excepturi molestias repellendus quam assumenda minima sed vel itaque
+            facere nostrum, repellat omnis a. Nemo porro delectus omnis, ratione natus aspernatur sequi
+            accusamus fuga, dicta quam consequatur explicabo facilis illum sed veniam eligendi officia
+            sapiente asperiores. Dolore, tempore. Perferendis illo dolor harum rerum. Aspernatur molestiae
+            vero maiores incidunt, eveniet mollitia fugiat suscipit neque rerum nemo necessitatibus
+            repellendus sint reprehenderit quam praesentium, odit voluptatem architecto quasi adipisci
+            laborum deserunt? Laudantium praesentium placeat vel nisi doloremque atque architecto qui.
+            Facilis, quam magni. Est tempore repellat temporibus a quidem ratione, ipsam amet nulla
+            consectetur. Id, pariatur repellendus error harum minima voluptate vel voluptatem alias velit
+            eligendi officia? Earum, voluptatibus odit? Blanditiis, omnis nulla.
+          </p>
+          <p>
+            2.2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius delectus suscipit fugit sequi
+            sint consequatur nesciunt quisquam neque rerum provident numquam aut excepturi laborum modi ab
+            cum iste fuga, quam nulla inventore molestias! Repudiandae consequuntur voluptatem earum est?
+            Dignissimos nostrum delectus qui blanditiis modi officia repellat in, sapiente enim veniam
+            aperiam tempore magnam error aut ipsa quibusdam molestias voluptate aliquid obcaecati
+            voluptatibus commodi corrupti, ut dolorum!
+          </p>
+
+          <p>3. Anything else</p>
+
+          <p>
+            3.1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni dolorem soluta possimus
+            quas,
+            praesentium ullam numquam inventore repudiandae facere aliquam odio harum, odit iusto nisi quam
+            culpa maiores sequi velit quasi qui minima modi quod ratione nihil! Velit, autem impedit?
+          </p>
+          <p>
+            3.2 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, iusto temporibus.
+            Tenetur maiores dignissimos quo? Maiores delectus iusto, mollitia nam deserunt explicabo.
+            Soluta mollitia facilis temporibus natus at blanditiis fugit consectetur aliquid eum obcaecati!
+            Repellat obcaecati odit dolor consequuntur illo quidem laudantium nisi? Sunt tenetur culpa nemo
+            eveniet sint esse odit unde excepturi itaque cum, nihil vero, atque autem. Itaque doloribus
+            optio sint debitis assumenda soluta asperiores unde. Ab consectetur dolores ratione fugit
+            beatae quisquam aperiam non sint rem magnam?
+          </p>
+          <p>
+            3.3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum consequuntur maiores
+            ducimus
+            exercitationem earum officiis aliquid expedita voluptas rerum nostrum illo, dolorum facilis
+            iusto nihil doloremque repellat quasi sunt dolore corporis neque quod tenetur iste obcaecati
+            pariatur! Numquam ipsam, molestias quae laboriosam quisquam amet a? Perspiciatis hic quibusdam
+            ipsa recusandae.
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde quam velit debitis amet. Culpa
+            porro veritatis eveniet iure quasi sunt expedita dignissimos perferendis non commodi suscipit
+            sint magnam sapiente neque numquam autem aperiam, facilis unde atque excepturi? Sint dolor
+            nihil vel, at atque culpa veniam omnis veritatis quod nam? Reprehenderit perspiciatis, ab,
+            officia laboriosam maiores veritatis minus autem nisi ad iusto ut rerum praesentium a at eius
+            quos optio ratione obcaecati! Maxime suscipit voluptatem quidem debitis earum dicta accusantium
+            eum perspiciatis nostrum adipisci esse inventore dolorum totam officiis enim, recusandae velit
+            voluptate asperiores deleniti blanditiis illum? Sit, enim neque labore quos cumque iusto ipsam.
+            Laboriosam, quidem perspiciatis? Sapiente non ipsam recusandae enim eum dignissimos veritatis
+            molestias praesentium libero, ex error beatae quibusdam blanditiis suscipit provident, odit
+            modi incidunt inventore temporibus eveniet ea aliquid alias. Illo optio architecto temporibus,
+            adipisci nobis ab nemo eaque corrupti enim quaerat repudiandae nam, non veniam maxime nulla
+            quidem! Vero laudantium velit dolore soluta expedita quam inventore amet vitae libero fuga
+            voluptatem consectetur minima aut perferendis cupiditate incidunt, ullam voluptatum illum
+            possimus. Voluptatibus repellat delectus sint!
+          </p>
+        </div>
+        <div class="modal-footer">
+          <!-- <button type="button" class="btn submit-modal-btn" data-dismiss="modal" id="confirmPDNTextModal">Дать согласие на обработку ПД</button> -->
+          <button type="button" class="btn close-modal-btn" data-dismiss="modal" id="closePDNTextModal">Закрыть</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End PDN text document modal -->
+
+  <!-- Footer section -->
+  <div class="container-fluid footer-section" id="footerSection">
+    <div class="main-footer-container container">
+      <div class="col" id="navFooterSection">
+        <ul class="footer-nav list-inline">
+          <li class="list-inline-item">
+            <a href="home.html">Главная</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="about.html">О компании</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="services.html">Услуги</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="news.html"> Новости</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="clients.html">Клиентам</a>
+          </li>
+          <li class="list-inline-item list-inline-item-active">
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+      </div>
+      <div class="row footer-row">
+        <div class="col-lg-9 col-md-12" id="infoColFooterSection">
+          <p>
+            Посещая сайт www.rosgalonline.ru, Вы предоставляете согласие на обработку данных о cookies, сбор которых
+            автоматически осуществляется ООО «Альтес-Р» (Российская Федерация, 140730, г. Рошаль, ул. Косякова, дом 13)
+            на условиях Положения обработки персональных данных. Компания также может использовать указанные данные для
+            их последующей обработки системами Google Analytics, Яндекс.Метрика и др., которая осуществляется с целью
+            функционирования сайта www.roshalonline.ru.
+          </p>
+          <p>
+            Официальный сайт ООО "Альтес-Р" www.roshalonline.ru не является средством массовой информации (СМИ).
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-12" id="mapColFooterSection">
+          <div class="map-footer-section">
+            <a href="#" class="btn show-map-btn-footer" id="linkToMapFooterSection">
+              <i class="fas fa-map-marked-alt"></i>
+              Схема проезда
+            </a>
+            <ul class="footer-socials list-inline">
+              <li class="list-inline-item">
+                <i class="fab fa-vk footer-social-icon"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-odnoklassniki footer-social-icon"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-facebook-f footer-social-icon"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col" id="addressFooterSection">
+          <hr />
+          <a href="mailto:atnr@bk.ru&subject=Письмо%20автору">© Кинеев Алексей 2018-2018</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End footer section -->
+
+  <!-- Live chat section -->
+  <a role="button" id="chatButton">
+    <i class="fas fa-comments fa-2x"></i>
+  </a>
+  <div class="chat-section">
+    <div class="chat-header">
+      <i class="fas fa-user-astronaut" id="avatarChat"></i>
+      <p>
+        Чат-бот Аркадий (online)
+      </p>
+      <i class="fas fa-times fa-2x" id="closeChatBtn"></i>
+    </div>
+    <div class="chat-canvas">
+      <div class="conversation-wrapper"></div>
+    </div>
+
+    <div class="chat-messanger">
+      <p id="chatTipsLabel">Для отправки можно нажать CTRL + ENTER</p>
+      <hr id="chatInputAreaTopBorder" />
+      <!-- <input type="text" class="form-control input-sm" id="chatInputArea" placeholder="Задайте свой вопрос Аркадию здесь..." /> -->
+      <div class="md-form">
+        <div class="md-textarea form-control" contenteditable="true" id="chatInputArea">Задайте свой вопрос Аркадию
+          здесь...</div>
+        <div class="chat-icons">
+          <button class="fas fa-question-circle" id="showHelpChatBtn" title="Перейти в раздел с помощью"></button>
+          <button class="far fa-smile" id="showEmojiChatBtn" title="Выбрать классный самйл"></button>
+          <button class="fas fa-share-square" id="sendChatBtn" title="Отправить сообщение"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End live chat section -->
+
+  <!-- Scripts -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery.mousewheel-3.0.6.min.js"></script>
+  <script src="js/jquery.mCustomScrollbar.min.js"></script>
+  <script src="js/jquery.emoji.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/baron.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/contacts.js"></script>
+</body>
+
+</html>

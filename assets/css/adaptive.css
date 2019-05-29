@@ -1,0 +1,420 @@
+@media screen and (max-width: 390px) {
+
+    /* Main info section HOME PAGE */
+
+    #newLineMainInfo {
+        display: inherit;
+    }
+
+    #newLineIconsMainInfo {
+        display: inherit;
+    }
+
+    /* Services HOME PAGE */
+
+    .service i {
+        margin-top: 50px !important;
+    }
+
+    /* Clients info section HOME PAGE */
+
+    .modal-footer {
+        display: initial;
+        text-align: center;        
+    }
+
+    #closePDNTextModal {
+        margin-top: 16px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    /* Main info section HOME PAGE */
+
+    #centralNewsMainInfo {
+        margin-top: 57.2px;
+        margin-bottom: 57.2px;
+    }
+
+    #viewNewsBtnMainInfo {
+        float: left;
+        margin-top: 0;
+    }
+
+    #viewNewsBtnMainInfo span {
+        display: inline !important;
+    }
+
+    #moreNewsBtnMainInfo {
+        position: absolute;
+        left: 15px;
+        bottom: -70px;
+    }
+
+    #aboutMainInfo {
+        margin-top: 125px;
+    }
+
+    /* Clients info HOME PAGE */
+
+    .subscribe-checkbox {
+        padding: 0 15px !important;
+    }
+
+    .subscribe-container {
+        padding: 0 15px !important;
+    }
+
+    .subscribe-container input {
+        width: 100%;
+    }
+
+    .input-group-append {
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+        display: inline;
+    }
+
+    .input-group-append button {
+        margin-left: 0;        
+    }
+
+    .subscribe-checkbox {
+        padding: 0 75px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    /* Carousel adaptive HOME PAGE */
+
+    .carousel-caption h2 {
+        font-size: 1.2em !important;
+    }
+
+    .carousel-item-annotation {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    /* Carousel adaptive HOME PAGE */
+
+    .carousel-indicators {
+        display: none;
+    }
+
+    .carousel-caption {
+        bottom: 10px;
+    }
+
+    .ro-carousel-btn {
+        display: block;
+        margin-bottom: 15px;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Main info section HOME PAGE */
+
+    .news-preview-main-info {
+        font-size: 12px !important;
+    }
+
+    #viewNewsBtnMainInfo {
+        padding-right: 0;
+    }
+
+    #viewNewsBtnMainInfo span {
+        display: inline !important;
+    }
+
+    /* Carousel adaptive HOME PAGE */
+
+    .small-serv-carousel-wrapper {
+        display: none;
+    }
+
+    .x-small-serv-carousel-wrapper {
+        display: inherit !important;
+    }
+
+    .small-semaphores {
+        display: none !important;
+    }
+
+    .x-small-semaphores {
+        display: inline !important;
+    }
+
+    /* Clients info HOME PAGE */
+
+    .subscribe-checkbox {
+        padding: 0 30px;
+    }
+
+    .subscribe-container {
+        padding: 0 30px;
+    }
+
+    .subscribe-checkbox {
+        padding: 0 75px;
+    }
+}
+
+@media screen and (max-width: 845px) {
+    
+    /* Carousel adaptive HOME PAGE */
+
+    .carousel-caption {
+        font-size: 13px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 1.7em;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    
+    /* Navigation adaptive BASE ELEMENT */
+
+    .navbar{
+        padding: 7px 20px;
+    }
+
+    .navbar-nav {
+        padding-top: 15px;
+    }
+    .nav-item {
+        margin-bottom: 5px;
+    }
+    .lc-button {
+        margin-bottom: 15px;
+    }   
+    
+    /* Company services HOME PAGE */
+
+    #servicesSection {
+        height: 400px;
+    }
+
+    .services-wrapper {
+        display: none;
+    }
+
+    #serviceCarousel {
+        display: inherit;
+        height: 350px;
+        margin-top: 20px;
+        background-image: url(../img/services.png);
+    }
+
+    .serv-carousel-container {
+        height: 100%;
+        max-width: 950px;
+    }
+
+    .serv-carousel-row {
+        height: 100%;
+    }
+
+    #leftColServiceCarousel {
+        text-align: left;
+    }
+
+    #leftColServiceCarousel:hover {
+        cursor: pointer;
+    }
+
+    #rightColServiceCarousel {
+        text-align: right;
+    }
+
+    #rightColServiceCarousel {
+        cursor: pointer;
+    }
+
+    .serv-carousel-arrow {
+        font-size: 1.9em;
+        color: #fff;
+        padding-top: 160px;
+        opacity: .5;
+    }
+
+    .service-carousel-wrapper {
+        height: 100%;
+    }
+
+    .hidden-service { 
+        display: none;
+    }
+
+    .x-small-serv-carousel-wrapper {
+        display: none;
+    }
+
+    .service-carousel-wrapper i {
+        margin-top: 70px;
+        font-size: 2.5em;
+        margin-bottom: 5px;
+        color: #fff;
+    }
+
+    .service-carousel-wrapper h5 {
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 1.15em;
+    }
+
+    .service-carousel-wrapper hr {
+        height: 1px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .service-carousel-wrapper p {
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .about-btn-service-carousel a {
+        background-color: #FECE1A;
+        color: #101316;
+        border-color: #101316;
+        border-radius: 0px;
+    }
+
+    .about-btn-service-carousel a:hover {
+        background-color: #101316;
+        color: #fff;
+        border-color: #101316;
+    }
+
+    .semaphores {
+        text-align: center;
+        color: #fff;
+        margin-top: -30px;
+    }
+
+    .semaphores i {
+        font-size: 0.8em;
+    }
+
+    .x-small-semaphores {
+        display: none;
+    }
+
+    /* Clients info HOME PAGE */
+
+    #clientsInfoSection {
+        margin-top: 24px;
+    }
+
+    #legalSectionClientsInfo {
+        margin-top: 55px;
+    }
+    
+    /* Hide chat elements BASE ELEMENT */
+
+    #chatButton {
+        display: none;
+    }
+
+    .chat-section {
+        display: none;
+    }
+
+    /* Footer BASE ELEMENT */
+
+    .map-footer-section {
+        margin-top: 10px;
+    }
+
+    .footer-socials {
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 501) and (min-width: 767) {
+
+    /* Clients info HOME PAGE */
+
+    .subscribe-checkbox {
+        padding: 0 30px;
+    }
+
+    .subscribe-container {
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    
+    /* Main info section HOME PAGE */
+    
+    #newLineMainInfo {
+        display: inherit;
+    }
+
+    #newLineIconsMainInfo {
+        display: none;
+    }
+
+    #viewNewsBtnMainInfo span {
+        display: inline !important;
+    }  
+    
+    /* Clients info HOME PAGE */
+
+    .subscribe-container {
+        padding: 0 75px;
+    }
+
+    .subscribe-checkbox {
+        padding: 0 75px;
+    }    
+}
+
+@media screen and (max-width: 1060px) and (min-width: 993px) {
+    
+    /* Navbar section BASE ELEMENT */
+    
+    .navbar {
+        padding: 7px 20px;
+    }    
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+    
+    /* Main info section HOME PAGE*/
+
+    #newLineMainInfo {
+        display: inherit;
+    }
+
+    #newLineIconsMainInfo {
+        display: inherit;
+    }
+
+    .news-preview-main-info {
+        font-size: 12px !important;
+    }
+
+    #viewNewsBtnMainInfo {
+        padding-right: 0;
+    }
+
+    #moreNewsBtnMainInfo {
+        position: absolute;
+        bottom: 0;
+    }
+
+    #viewNewsBtnMainInfo span {
+        display: inline !important;
+    }       
+}

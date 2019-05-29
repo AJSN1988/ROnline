@@ -1,0 +1,1229 @@
+/* 1. Common */
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #FECE1A;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* 2. Navigation */
+
+.navbar {
+    padding: 7px 50px;
+    background-color: #101316 !important;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.navbar-nav .active{
+    border: 1px solid #FECE1A;
+}
+
+.nav-item {
+    border: 1px solid #101316;
+	padding: 0px 7px;
+	margin: 0px 3px;
+}
+
+.nav-item:hover {
+    border: 1px solid #fff;
+    color: #FECE1A;
+}
+
+.nav-link{
+    color: #fff !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;    
+}
+
+.lc-button {
+    /* background-color: #FECE1A; */
+    border: 1px solid #FECE1A;
+}
+
+.lc-button:hover {
+    background-color:#FECE1A;
+    border: 1px solid #FECE1A;
+}
+
+.lc-button a:hover {
+    color: #101316 !important;
+}
+
+.lc-icon {
+    padding-right: 5px;
+}
+
+.navbar-toggler {
+    border: 0px;
+    padding: 7px 0px;
+}
+
+.navbar-dark .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* 3. Carousel */
+
+#carouselContainer {
+    height: 450px;
+    padding-top: 59px;
+    background-image: url(../img/slider1.png);
+}
+
+#roCarousel {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-caption {
+    bottom: 60px;
+}
+
+.carousel-caption h2 {
+    text-transform: uppercase; 
+}
+
+.carousel-caption i {
+    padding-right: 7px;    
+}
+
+hr {
+    border: none;
+    color: #FECE1A;
+    background-color: #FECE1A;
+    height: 2px;
+}
+
+.carousel-item-annotation {
+    font-size: 0.8em;
+    color: #FECE1A;
+    padding-bottom: 7px;
+}
+
+.ro-carousel-btn {
+    margin: 0 7px;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.ro-carousel-btn:hover {
+    border: 1px solid #FECE1A;
+    color: #FECE1A;
+}
+
+/* 4. Main info section */
+
+#mainInfoSection {
+    min-height: 100px;
+}
+
+.main-info-container {
+    height: 100%;
+    text-align: center;
+}
+
+.main-info-container h6 {
+    text-transform: uppercase;
+    padding: 15px 0;
+    margin: 0 0;
+}
+
+.main-info-container hr {
+    background-color: #101316;
+    margin: 0 0;
+}
+
+.main-contact-container {
+    padding: 15px 0;
+    font-size: 15px;
+}
+
+.main-contact-container a {
+    color: #101316;
+    text-decoration: none;
+    white-space: normal;
+}
+
+.social-icon:hover {
+    color: #fff;
+    text-shadow: 1px 1px 2px #101316;
+}
+
+.main-contact-container i {
+    padding: 0 5px;
+}
+
+#newLineMainInfo {
+    display: none;
+}
+
+#newLineIconsMainInfo {
+    display: none;
+}
+
+#lastNewsMainInfo, #aboutMainInfo {
+    margin-top: 55px;
+    text-align: left;
+}
+
+.news-container-main-info {
+    min-height: 250px;
+    margin-bottom: 16px;
+}
+
+.news-main-info {
+    height: 70px;
+}
+
+.news-main-info h6 {
+    padding: 0 0;
+    font-size: 11px;
+}
+
+.news-main-info hr {
+    height: 1px;
+    margin-bottom: -5.2px;
+    background-color: #FECE1A;
+}
+
+.news-header-main-info {
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+#centralNewsMainInfo {
+    margin: 20px 0;
+}
+
+#viewNewsBtnMainInfo {
+    margin-top: -52px;
+    float: right;
+    padding-right: 20px;
+}
+
+#viewNewsBtnMainInfo span {
+    font-size: 13px;
+    text-transform: uppercase;
+    display: none;
+    color: #101316;
+    text-shadow: none;
+}
+
+#textMainInfo {
+    min-height: 250px;
+}
+
+#aboutHeaderMainInfo {
+    text-transform: uppercase;
+    font-size: 14px;
+    border-bottom: 1px solid #101316; 
+}
+
+#textBtnMainInfo, #moreNewsBtnMainInfo {
+    border: 1px solid #101316;
+    border-radius: inherit;
+}
+
+#textBtnMainInfo:hover, #moreNewsBtnMainInfo:hover {
+    background-color: #101316;
+    color: #fff;
+}
+
+/* 5. Company services */
+
+#servicesSection {
+    height: 450px;
+    padding: 0;
+}
+
+.services-header{
+    text-align: center;
+}
+
+.services-header h6 {
+    text-transform: uppercase;
+    padding: 15px 0;
+    margin: 0 0;
+}
+
+.services-header hr {
+    background-color: #101316;
+    margin: 0 0;
+}
+
+.services-wrapper {
+    margin-top: 20px;
+    height: 100%;
+    background-image: url(../img/services.png)
+}
+
+.services-container {
+    height: 100%;
+}
+
+.service-row {
+    height: 100%;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    color: #fff;
+}
+
+.service-box {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+.service-box:hover {
+    cursor: pointer;
+}
+
+.service-box h5 {
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 10px;
+}
+
+#serviceLogoServicesSection {
+    padding-top: 170px;
+    font-size: 3em;
+}
+
+.service-body hr {
+    display: none;
+}
+
+.service-body p {
+    display: none;
+}
+
+.service-footer {
+    position: absolute;
+    bottom: 10px;
+}
+
+.hide-service-icon {
+    display: none;
+}
+
+.service-footer span {
+    text-transform: uppercase;
+    position: relative;
+    bottom: 5px;
+    padding-left: 50px;
+    display: none;
+}
+
+#serviceCarousel {
+    display: none;
+}
+
+/* 6. Clients info  */
+
+#clientsInfoSection {
+    margin-top: 75px;
+    min-height: 100px;
+}
+
+.clients-info-header{
+    text-align: center;
+}
+
+.clients-info-header h6 {
+    text-transform: uppercase;
+    padding: 15px 0;
+    margin: 0 0;
+}
+
+.clients-info-header hr {
+    background-color: #101316;
+    margin: 0 0;
+}
+
+.clients-info-main-container {
+    padding-top: 20px;
+    /* min-height: 300px; */
+    text-align: center;
+    font-size: 15px;
+}
+
+.clients-info-main-container p {
+    margin-bottom: 20px;
+}
+
+.subscribe-container {
+    padding: 0 150px;
+}
+
+.subscribe-container input {
+    border-radius: 0;
+    font-size: 15px;
+}
+
+.subscribe-container input:focus {
+    box-shadow: none !important;
+}
+
+.subscribe-btn {
+    margin-left: 20px;
+    border: 1px solid #101316;
+    color: #101316;
+    border-radius: 0;
+}
+
+.subscribe-btn:hover {
+    color: #fff;
+    background-color: #101316;
+}
+
+.subscribe-checkbox input {
+    font-size: 14px;
+}
+
+.subscribe-checkbox {
+    font-size: 12px;
+    padding: 0 150px;
+}
+
+.subscribe-checkbox a {
+    color: #101316;
+    text-decoration: underline;
+}
+
+#subscribeBtnClientsInfo {
+    z-index: 0 !important;
+}
+
+#confirmPDNTextModal {
+    border-radius: 0;
+    font-size: 15px;
+    background-color: #FECE1A;
+    border: 1px solid #101316;
+    color: #101316;
+}
+
+#confirmPDNTextModal:hover {
+    background-color: #15ff00;
+    border: 1px solid #15ff00;
+    color: #fff;
+}
+
+#closePDNTextModal {
+    background-color: #fff;
+    color: #101316;
+    border: 1px solid #101316;
+    border-radius: 0;
+    font-size: 15px;
+}
+
+#closePDNTextModal:hover {
+    background-color: #615f5f;
+    color: #fff;
+    border: 1px solid #615f5f;
+}
+
+.subscribe-error-msg {
+    color: red;
+    display: none;
+}
+
+.subscribe-error-msg p {
+    margin-bottom: 16px;
+}
+
+#rowClientsInfoSection {
+    text-align: left;
+    margin-top: 55px;
+    padding-bottom: 15px;
+}
+
+#feedbackHeaderClientsInfo, #legalHeaderClientsInfo {
+    text-transform: uppercase;
+    font-size: 14px;
+    border-bottom: 1px solid #101316;
+}
+
+.col-text-clients-info {
+    min-height: 170px;
+    font-size: 15px;
+}
+
+.text-btn-clients-info {
+    border: 1px solid #101316;
+    border-radius: 0;
+    color: #101316;
+}
+
+.text-btn-clients-info:hover {
+    background-color: #101316;
+    color: #fff;
+}
+
+/* 7. Map section */
+
+#mapSection {
+    text-align: center;
+}
+
+.map-header-container h6 {
+    text-transform: uppercase;
+    padding: 15px 0;
+    margin: 0 0;
+}
+
+.map-header-container hr {
+    background-color: #101316;
+    margin: 0 0;
+}
+
+.map-container {
+    margin-top: 20px;
+    height: 450px;
+    padding: 0;
+}
+
+/* 8. Live chat */
+
+#chatButton {
+    color: #101316;
+    border: 3px solid #101316;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    outline: none;
+    background-color: #FECE1A;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+#chatButton:hover {
+    color: #fff;
+    background-color: #15ff00;
+    border: 3px solid #fff;
+}
+
+.chat-section {    
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 50%;
+    font-family: 'Roboto', sans-serif;
+    /* width: 25%; */
+    min-width: 300px;
+    background-color: #fff;
+    max-width: 350px;
+    max-height: 600px;
+    display: none;
+}
+
+.chat-header {
+    height: 40px;    
+    background-color: #101316;
+    color: #fff;
+    font-size: 12px;
+}
+
+.chat-header i {
+    position: absolute;
+}
+
+.chat-header p {
+    position: absolute;
+    margin-bottom: 0px;
+    margin-left: 40px;
+    left: 50 px;
+    top: 10px;
+}
+
+#avatarChat {
+    left: 10px;
+    top: 10px;
+    color: #FECE1A;
+    font-size: 1.7em;
+}
+
+#closeChatBtn {
+    right: 10px;
+    top: 7.5px;
+}
+
+#closeChatBtn:hover {
+    color: #FECE1A;
+    cursor: pointer;
+}
+
+.chat-canvas {
+    height: 70%;
+    overflow-y: auto;
+}
+
+.conversation-wrapper {
+    padding-bottom: 50px
+}
+
+.phrase-date {
+    text-align: center;
+    font-size: 10px;    
+    margin-bottom: 0px;
+    padding: 2px 0;
+}
+
+.bot-phrase {
+    background-color: #FECE1A;
+    margin: 0px 45px 0px 20px;
+    font-size: 12px;
+    padding: 5px 5px;
+}
+
+.bot-phrase p {
+    margin-bottom: 0px;
+}
+
+.user-phrase {
+    font-size: 12px;
+    padding: 2px 0;
+    text-align: right;
+    margin: 0px 20px 0px 45px;
+    background-color: aliceblue;
+}
+
+.user-phrase p {
+    margin-bottom: 0px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.chat-messanger {
+    height: 90px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.chat-messanger hr {
+    display: none;
+    background-color: #101316;
+    margin: 0 25px;
+}
+
+#chatTipsLabel {
+    display: none;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+#chatInputArea {
+    height: 100%;
+    resize: none;
+    border: none;
+}
+
+#chatInputArea {
+    border: none;
+    box-shadow: none;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    height: 60px;
+    font-size: 15px;
+    text-align: center;
+    overflow-y: auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+#chatInputArea:focus {
+    text-align: left;    
+}
+
+.md-form {
+    height: 100%;
+    padding-top: 5px;
+}
+
+.chat-icons {
+    text-align: right;
+    padding: 0 5px;
+}
+
+.chat-icons button {
+    padding: 0 5px;
+    border: none;
+    background-color: #fff;
+}
+
+.emoji_container {
+    left: auto !important;
+    bottom: 45px;
+    top: auto !important;
+    right: 20px;
+    position: fixed !important;
+}
+
+#showHelpChatBtn, #showEmojiChatBtn, #sendChatBtn {
+    cursor: pointer;
+}
+
+#showHelpChatBtn:hover, #showEmojiChatBtn:hover, #sendChatBtn:hover {
+    color: #FECE1A;
+}
+
+/* 9. PDN modal section */
+
+.modal-content {
+    border-radius: 0;
+}
+
+.modal-title {
+    font-size: 18px;
+}
+
+.modal-body {
+    font-size: 14px;
+}
+
+
+/* 10. Footer */
+
+#footerSection {
+    min-height: 150px;
+    background-color: #101316;
+    margin-top: 20px;
+}
+
+#navFooterSection {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.footer-nav {
+    margin-bottom: 5px;
+}
+
+.list-inline-item a {
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.list-inline-item-active a {
+    text-decoration-line: underline;
+    text-decoration-color: #FECE1A;
+}
+
+#infoColFooterSection {
+    padding: 0;
+}
+
+#infoColFooterSection p {
+    color: #fff;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.map-footer-section {
+    height: 100%;
+    margin: 0 35px;
+    text-align: center;
+}
+
+.show-map-btn-footer {
+    border: 1px solid #fff;
+    border-radius: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.show-map-btn-footer:hover {
+    border: 1px solid #FECE1A;
+    color: #FECE1A;
+}
+
+.footer-socials {
+    padding-top: 10px;
+}
+
+.footer-social-icon {
+    color: #fff;
+    padding-right: 7px;
+    cursor: pointer;
+}
+
+.footer-social-icon:hover {
+    color: #FECE1A;
+}
+
+#addressFooterSection {
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    margin-top: -10px;
+}
+
+#addressFooterSection p {
+    margin-bottom: 8px;
+}
+
+#addressFooterSection hr {
+    height: 1px;
+    margin: 15px 0px 5px 0px;
+}
+
+#addressFooterSection a {
+    color: #fff;
+}
+
+/* 11. Adaptive  */
+
+@media screen and (max-width: 390px) {
+
+    /* Main info section */
+
+    #newLineMainInfo {
+        display: inherit;
+    }
+
+    #newLineIconsMainInfo {
+        display: inherit;
+    }
+
+    /* Services */
+
+    .service i {
+        margin-top: 50px !important;
+    }
+
+    /* Clients info section */
+
+    .modal-footer {
+        display: initial;
+        text-align: center;        
+    }
+
+    #closePDNTextModal {
+        margin-top: 16px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    /* Main info section */
+
+    #centralNewsMainInfo {
+        margin-top: 57.2px;
+        margin-bottom: 57.2px;
+    }
+
+    #viewNewsBtnMainInfo {
+        float: left;
+        margin-top: 0;
+    }
+
+    #viewNewsBtnMainInfo span {
+        display: inline !important;
+    }
+
+    #moreNewsBtnMainInfo {
+        position: absolute;
+        left: 15px;
+        bottom: -70px;
+    }
+
+    #aboutMainInfo {
+        margin-top: 125px;
+    }
+
+    /* Clients info */
+
+    .subscribe-checkbox {
+        padding: 0 15px !important;
+    }
+
+    .subscribe-container {
+        padding: 0 15px !important;
+    }
+
+    .subscribe-container input {
+        width: 100%;
+    }
+
+    .input-group-append {
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+        display: inline;
+    }
+
+    .input-group-append button {
+        margin-left: 0;        
+    }
+
+    .subscribe-checkbox {
+        padding: 0 75px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    /* Carousel adaptive */
+
+    .carousel-caption h2 {
+        font-size: 1.2em !important;
+    }
+
+    .carousel-item-annotation {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    /* Carousel adaptive */
+
+    .carousel-indicators {
+        display: none;
+    }
+
+    .carousel-caption {
+        bottom: 10px;
+    }
+
+    .ro-carousel-btn {
+        display: block;
+        margin-bottom: 15px;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Main info section */
+
+    .news-preview-main-info {
+        font-size: 12px !important;
+    }
+
+    #viewNewsBtnMainInfo {
+        padding-right: 0;
+    }
+
+    #viewNewsBtnMainInfo span {
+        display: inline !important;
+    }
+
+    /* Carousel adaptive */
+
+    .small-serv-carousel-wrapper {
+        display: none;
+    }
+
+    .x-small-serv-carousel-wrapper {
+        display: inherit !important;
+    }
+
+    .small-semaphores {
+        display: none !important;
+    }
+
+    .x-small-semaphores {
+        display: inline !important;
+    }
+
+    /* Clients info */
+
+    .subscribe-checkbox {
+        padding: 0 30px;
+    }
+
+    .subscribe-container {
+        padding: 0 30px;
+    }
+
+    .subscribe-checkbox {
+        padding: 0 75px;
+    }
+}
+
+@media screen and (max-width: 845px) {
+    
+    /* Carousel adaptive */
+
+    .carousel-caption {
+        font-size: 13px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 1.7em;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    
+    /* Navigation adaptive */
+
+    .navbar{
+        padding: 7px 20px;
+    }
+
+    .navbar-nav {
+        padding-top: 15px;
+    }
+    .nav-item {
+        margin-bottom: 5px;
+    }
+    .lc-button {
+        margin-bottom: 15px;
+    }   
+    
+    /* Company services */
+
+    #servicesSection {
+        height: 400px;
+    }
+
+    .services-wrapper {
+        display: none;
+    }
+
+    #serviceCarousel {
+        display: inherit;
+        height: 350px;
+        margin-top: 20px;
+        background-image: url(../img/services.png);
+    }
+
+    .serv-carousel-container {
+        height: 100%;
+        max-width: 950px;
+    }
+
+    .serv-carousel-row {
+        height: 100%;
+    }
+
+    #leftColServiceCarousel {
+        text-align: left;
+    }
+
+    #leftColServiceCarousel:hover {
+        cursor: pointer;
+    }
+
+    #rightColServiceCarousel {
+        text-align: right;
+    }
+
+    #rightColServiceCarousel {
+        cursor: pointer;
+    }
+
+    .serv-carousel-arrow {
+        font-size: 1.9em;
+        color: #fff;
+        padding-top: 160px;
+        opacity: .5;
+    }
+
+    .service-carousel-wrapper {
+        height: 100%;
+    }
+
+    .hidden-service { 
+        display: none;
+    }
+
+    .x-small-serv-carousel-wrapper {
+        display: none;
+    }
+
+    .service-carousel-wrapper i {
+        margin-top: 70px;
+        font-size: 2.5em;
+        margin-bottom: 5px;
+        color: #fff;
+    }
+
+    .service-carousel-wrapper h5 {
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 1.15em;
+    }
+
+    .service-carousel-wrapper hr {
+        height: 1px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .service-carousel-wrapper p {
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .about-btn-service-carousel a {
+        background-color: #FECE1A;
+        color: #101316;
+        border-color: #101316;
+        border-radius: 0px;
+    }
+
+    .about-btn-service-carousel a:hover {
+        background-color: #101316;
+        color: #fff;
+        border-color: #101316;
+    }
+
+    .semaphores {
+        text-align: center;
+        color: #fff;
+        margin-top: -30px;
+    }
+
+    .semaphores i {
+        font-size: 0.8em;
+    }
+
+    .x-small-semaphores {
+        display: none;
+    }
+
+    /* Clients info */
+
+    #clientsInfoSection {
+        margin-top: 24px;
+    }
+
+    #legalSectionClientsInfo {
+        margin-top: 55px;
+    }
+    
+    /* Hide chat elements */
+
+    #chatButton {
+        display: none;
+    }
+
+    .chat-section {
+        display: none;
+    }
+
+    /* Footer */
+
+    .map-footer-section {
+        margin-top: 10px;
+    }
+
+    .footer-socials {
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 501) and (min-width: 767) {
+
+    /* Clients info */
+
+    .subscribe-checkbox {
+        padding: 0 30px;
+    }
+
+    .subscribe-container {
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    
+    /* Main info section */
+    
+    #newLineMainInfo {
+        display: inherit;
+    }
+
+    #newLineIconsMainInfo {
+        display: none;
+    }
+
+    #viewNewsBtnMainInfo span {
+        display: inline !important;
+    }  
+    
+    /* Clients info */
+
+    .subscribe-container {
+        padding: 0 75px;
+    }
+
+    .subscribe-checkbox {
+        padding: 0 75px;
+    }    
+}
+
+@media screen and (max-width: 1060px) and (min-width: 993px) {
+    .navbar {
+        padding: 7px 20px;
+    }    
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+    
+    /* Main info section */
+
+    #newLineMainInfo {
+        display: inherit;
+    }
+
+    #newLineIconsMainInfo {
+        display: inherit;
+    }
+
+    .news-preview-main-info {
+        font-size: 12px !important;
+    }
+
+    #viewNewsBtnMainInfo {
+        padding-right: 0;
+    }
+
+    #moreNewsBtnMainInfo {
+        position: absolute;
+        bottom: 0;
+    }
+
+    #viewNewsBtnMainInfo span {
+        display: inline !important;
+    }
+
+    /* 5. Company services */
+
+    .service-footer span {
+        padding-left: 60px;
+    }
+}

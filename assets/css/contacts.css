@@ -1,0 +1,375 @@
+/* 1 Company location section */
+
+.map-section-wrapper {
+    position: relative;
+}
+
+.fixed-map-section {
+    height: 450px;
+    width: 100%;
+    padding: 0;
+    margin-top: 59px;
+    position: absolute;    
+}
+
+.location-container {
+    height: 450px;
+    margin-top: 59px;    
+}
+
+.location-container .container, .location-container .row {
+    height: 100%;
+}
+
+.location-col {
+    height: 230px;
+    margin-top: 110px;
+}
+
+.location-plate {
+    height: 100%;
+    background-color: #101316;
+    font-size: 13px;
+    color: #fff;
+}
+
+.location-header {    
+    text-transform: uppercase;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.hide-location-plate-btn {
+    position: absolute;
+    top: 13px;
+    right: 25px;
+    font-size: 14px;
+    color: #fff;
+    z-index: 2;
+}
+
+.location-plate hr {
+    height: 1px;
+    margin: 0 10px;
+}
+
+.location-block {
+    padding: 10px;
+}
+
+.location-block-name {
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+.location-block-name i {
+    padding-right: 5px;
+}
+
+.location-block-body a {
+    color: #fff;
+}
+
+.location-block-body a:hover {
+    text-decoration-line: none;
+}
+
+.mobile-sm-location-container {
+    display: none;
+}
+
+/* 2 Company bank details section */
+
+.bank-details-conatiner {
+    text-align: center;
+}
+
+.info-plates {
+    margin-top: 20px;
+}
+
+.plate-body-4 {
+    min-height: 380px;
+}
+
+.bank-detail-item {
+    padding-bottom: 5px;
+}
+
+.bank-detail-name:hover {
+    cursor: pointer;
+}
+
+.bank-detail-name {
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+}
+
+/* 3 Contact form */
+
+::placeholder {
+    color: #c8c5b5 !important;
+}
+
+.form-group {
+    padding: 0 8px !important;
+    margin-bottom: 0;
+}
+
+input[type=text]:invalid {
+    border: 1px solid red;
+    outline: 0;
+    box-shadow: none;
+    /* color: red; */
+}
+
+.invalid-input {
+    border: 1px solid #FECE1A !important;
+    outline: 0;
+    box-shadow: none;
+    /* color: red !important; */
+}
+
+.contact-form-section {
+    height: 400px;
+    margin-top: 20px;
+    background: url(../img/contact-background.jpg);
+}
+
+.contact-form-container {
+    color: #fff;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 12px;
+}
+
+.footer-section {
+    margin-top: 0 !important;
+}
+
+.form-header {
+    text-transform: uppercase;
+    color: #FECE1A;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0 3px;
+}
+
+.form-annotation a {
+    color: #FECE1A;
+}
+
+
+
+.form-control:focus {
+    border: none;
+    border: 1px solid #FECE1A;
+    outline: 0;
+    box-shadow: none;
+    background: none;
+    color: #fff;
+}
+
+.contact-form-input, .message-area {
+    font-size: 12px !important;
+    resize: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0;
+    background: none;
+    padding: 4px 5px 6px;
+}
+
+.message-area {
+    height: 230px;
+}
+
+.error-input-container {
+    height: 20px;
+}
+
+.error-input-container span {
+    display: none;
+    color: #FECE1A;
+    font-size: 10px;
+    margin-left: -20px;
+}
+
+.error-form-status {
+    color: #FECE1A;
+}
+
+.form-footer {
+    margin-top: 5px;
+}
+
+.form-comments {
+    font-size: 10px;
+    text-indent: 0;
+}
+
+.form-buttons {
+    text-align: right;
+}
+
+.clear-form-btn i{
+    padding-right: 15px;
+}
+
+.clear-form-btn i:hover {
+    cursor: pointer;
+    color: #FECE1A;
+}
+
+.submit-form-btn {
+    background-color: #FECE1A;
+    color: #101316;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 15px;
+}
+
+.submit-form-btn:hover {
+    background-color: #101316;
+    color: #FECE1A;
+    cursor: pointer;
+}
+
+/* 4 Adaptive */
+
+@media screen and (max-width: 567px) {
+
+    /* Company location secrtion */
+
+    .location-container {
+        display: none;
+    }
+
+    .map-section-wrapper {
+        height: 300px;
+        margin-bottom: 59px;
+    }
+
+    .fixed-map-section {
+        height: 100%;
+    }
+
+    .mobile-sm-location-container {
+        display: inherit;
+        padding: 0;
+    }
+
+    .mobile-sm-location-container .container {
+        padding: 0;
+    }
+
+    /* Contact form */
+
+    .contact-form-section {
+        height: 870px !important;
+    }
+
+    .form-comments {
+        text-align: center;
+    }
+
+    .form-buttons {
+        text-align: center;
+        margin-top: 15px;
+        padding-right: 80px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    /* Company details section */
+
+    .info-plate {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    /* Contact form */
+
+    .contact-form-section {
+        height: 415px;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 568px) {
+
+    /* Company location secrtion */
+
+    .location-col {
+        height: 150px;
+        margin-top: 260px;
+        padding: 0 30px;
+    }
+
+    .location-header {
+        font-size: 11px;
+        padding: 5px 0;
+    }
+
+    .location-block {
+        padding: 5px;
+    }
+
+    .location-block-name {
+        font-size: 10px;
+        padding-bottom: 0;
+    }
+
+    .location-block-body {
+        font-size: 11px;
+    }
+
+    .hide-location-plate-btn {
+        top: 6px;
+        right: 40px;
+    }
+
+    /* Contact form */
+
+    .contact-form-section {
+        height: 730px;
+    }
+
+    .form-comments {
+        text-align: center;
+    }
+
+    .form-buttons {
+        text-align: center;
+        margin-top: 15px;
+        padding-right: 80px;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+
+    /* Company location secrtion */
+
+    .location-col {
+        height: 250px;
+        margin-top: 100px;
+    }
+    
+    .location-block {
+        padding-bottom: 0;
+    }
+
+    /* Company details section */
+
+    .info-plate-header {
+        font-size: 10px;
+    }
+
+    .plate-body-4 {
+        min-height: 480px;
+    }
+}

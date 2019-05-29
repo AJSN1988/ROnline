@@ -1,0 +1,783 @@
+/* 1. Common */
+
+html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; 
+}
+
+/* If html overflow-x is commented and body's option is auto or hidden, smooth scrolling dont work in non-native mobile browsers 
+ If situation is opposite - don-t work in native Android browsers */
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #FECE1A;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+hr {
+    border: none;
+    color: #FECE1A;
+    background-color: #FECE1A;
+    height: 2px;
+}
+
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.section-header {
+    text-transform: uppercase;
+    padding: 15px 0;
+    margin: 0 0;
+    text-align: center;
+}
+
+.section-header-hr {
+    background-color: #101316;
+    margin: 0 0;
+}
+
+input[type="text"]
+{
+    font-size:15px;
+}
+
+/* Common section */
+
+.section-annotation {
+    font-size: 15px;
+    text-align: justify;
+    text-indent: 40px;
+    margin-top: 15px;
+}
+
+/* Tooltip */
+
+.tooltip-inner {
+    color: #FECE1A;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+/* Info plate */
+
+.info-plate-header {
+    position: relative;
+    background-color: #101316;
+    color: #FECE1A;
+    text-transform: uppercase;
+    padding: 10px 5px;
+    font-size: 12px;
+}
+
+.info-plate-body img {
+    padding: 20px 0px;
+}
+
+.info-plate-body p {    
+    font-size: 15px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.plate-body-4 p {
+    min-height: 200px;
+}
+
+.plate-body-6 p {
+    min-height: 120px;
+}
+
+.non-icon-plate-body p {
+    padding-top: 15px;
+}
+
+.info-plate-footer {
+    border: 1px solid #101316;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px 0px;
+}
+
+.info-plate-footer:hover {
+    background-color: #101316;
+    color: #fff;
+    cursor: pointer;
+}
+
+.plate-body-list {
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+    font-size: 13px;
+}
+
+.plate-list-item {
+    padding-top: 10px;
+}
+
+.plate-list-item span {
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-right: 5px;
+}
+
+.plate-body-annotation {
+    font-size: 10px;
+    text-indent: 10px;
+    text-align: justify;
+    padding: 10px 0;
+}
+
+.plate-body-list {
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+/* Section links */
+
+.section-links {
+    margin-top: 20px;
+}
+
+.section-links-header {
+    background-color: #101316;
+    padding: 10px 5px;
+    color: #FECE1A;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.section-links-body {
+    padding: 10px 0px;
+    font-size: 13px;
+}
+
+.section-links-list {
+    margin: 0px;
+}
+
+.section-links-list a {
+    color: #101316 !important;
+}
+
+/* Modals */
+
+.modal-footer, .modal-body, .modal-header {
+    padding: 10px;
+}
+
+.submit-modal-btn {
+    background-color: #FECE1A;
+    border-radius: 0;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 5px 10px 3px;
+}
+
+.submit-modal-btn:hover {
+    background-color: #101316;
+    color: #FECE1A;
+}
+
+.close-modal-btn {
+    background-color: #dbdbdb;
+    color: #101316;    
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 5px 10px 3px;
+    border-radius: 0;
+}
+
+.close-modal-btn:hover {
+    background-color: #707274e6;
+    color: #fff;
+}
+
+/* 1.1 Buttons */
+
+.common-btn {
+    border: 1px solid #101316;
+    border-radius: 0;
+    color: #101316;
+}
+
+.common-btn:hover {
+    background-color: #101316;
+    color: #fff;
+}
+
+.common-btn-dark {
+    border: 1px solid #101316;
+    border-radius: 0;
+    color: #101316;
+    font-size: 14px;
+    margin: auto 3px;
+}
+
+.common-btn-dark:hover {
+    background-color: #101316;
+    color: #fff !important;
+}
+
+.common-btn-dark i {
+    margin-right: 6px;
+}
+
+.large-info-btn:hover {
+    border: 1px solid #FECE1A;
+    color: #FECE1A;
+}
+
+.large-info-btn i {
+    padding-right: 7px;
+}
+
+.large-info-btn {
+    margin: 0 7px;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.hidden-link {
+    display: none;
+}
+
+.link-btn {
+    padding: 5px 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.dark-btn {
+    color: #101316;
+    border: 1px solid #101316;
+}
+
+.dark-btn:hover {
+    color: #fff;
+    border-color: #101316;
+    background-color: #101316;
+    text-decoration-line: none;
+}
+
+.white-btn {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.white-btn:hover {
+    color: #FECE1A;
+    border-color: #FECE1A;
+    text-decoration-line: none;
+}
+
+.orange-btn {
+    color: #FECE1A;
+    border: 1px solid #FECE1A;
+}
+
+.orange-btn:hover {
+    color: #fff;
+    border-color: #fff;
+    text-decoration-line: none;
+}
+
+/* 1.2 Headers */
+
+.top-section-header {
+    font-size: 12px;
+    color: #FECE1A;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* 1.3 Annotations */
+
+.info-annotation {
+    font-size: 0.8em;
+    color: #FECE1A;
+    padding-bottom: 7px;
+}
+
+.top-section-annotation {
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+/* 1.4 Custom scrollbar over baron.js */
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.baron__track {
+    background: #FECE1A;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.baron__bar {
+    position: absolute;
+    right: 0;    
+    z-index: 1;
+    width: 5px;
+    background: #101316;
+    margin-right: 5px;
+    border-radius: 40px;
+    opacity: 0.4;
+}
+
+.baron__bar:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+/* 2. Navigation */
+
+.navbar {
+    padding: 7px 50px;
+    background-color: #101316 !important;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.navbar-nav .active{
+    border: 1px solid #FECE1A;
+}
+
+.nav-item {
+    border: 1px solid #101316;
+	padding: 0px 7px;
+	margin: 0px 3px;
+}
+
+.nav-item:hover {
+    border: 1px solid #fff;
+    color: #FECE1A;
+}
+
+.nav-link{
+    color: #fff !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;    
+}
+
+.lc-button {
+    /* background-color: #FECE1A; */
+    border: 1px solid #FECE1A;
+}
+
+.lc-button:hover {
+    background-color:#FECE1A;
+    border: 1px solid #FECE1A;
+}
+
+.lc-button a:hover {
+    color: #101316 !important;
+}
+
+.lc-icon {
+    padding-right: 5px;
+}
+
+.navbar-toggler {
+    border: 0px;
+    padding: 7px 0px;
+}
+
+.navbar-dark .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* 3. Live chat */
+
+#chatButton {
+    color: #101316;
+    border: 3px solid #101316;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    outline: none;
+    background-color: #FECE1A;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+#chatButton:hover {
+    color: #fff;
+    background-color: #15ff00;
+    border: 3px solid #fff;
+}
+
+.chat-section {    
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 50%;
+    font-family: 'Roboto', sans-serif;
+    /* width: 25%; */
+    min-width: 300px;
+    background-color: #fff;
+    max-width: 350px;
+    max-height: 600px;
+    display: none;
+}
+
+.chat-header {
+    height: 40px;    
+    background-color: #101316;
+    color: #fff;
+    font-size: 12px;
+}
+
+.chat-header i {
+    position: absolute;
+}
+
+.chat-header p {
+    position: absolute;
+    margin-bottom: 0px;
+    margin-left: 40px;
+    left: 50 px;
+    top: 10px;
+}
+
+#avatarChat {
+    left: 10px;
+    top: 10px;
+    color: #FECE1A;
+    font-size: 1.7em;
+}
+
+#closeChatBtn {
+    right: 10px;
+    top: 7.5px;
+}
+
+#closeChatBtn:hover {
+    color: #FECE1A;
+    cursor: pointer;
+}
+
+.chat-canvas {
+    height: 70%;
+    overflow-y: auto;
+}
+
+.conversation-wrapper {
+    padding-bottom: 50px
+}
+
+.phrase-date {
+    text-align: center;
+    font-size: 10px;    
+    margin-bottom: 0px;
+    padding: 2px 0;
+}
+
+.bot-phrase {
+    background-color: #FECE1A;
+    margin: 0px 45px 0px 20px;
+    font-size: 12px;
+    padding: 5px 5px;
+}
+
+.bot-phrase p {
+    margin-bottom: 0px;
+}
+
+.user-phrase {
+    font-size: 12px;
+    padding: 2px 0;
+    text-align: right;
+    margin: 0px 20px 0px 45px;
+    background-color: aliceblue;
+}
+
+.user-phrase p {
+    margin-bottom: 0px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.chat-messanger {
+    height: 90px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.chat-messanger hr {
+    display: none;
+    background-color: #101316;
+    margin: 0 25px;
+}
+
+#chatTipsLabel {
+    display: none;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+#chatInputArea {
+    height: 100%;
+    resize: none;
+    border: none;
+}
+
+#chatInputArea {
+    color: #101316;
+    border: none;
+    box-shadow: none;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    height: 60px;
+    font-size: 15px;
+    text-align: center;
+    overflow-y: auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+#chatInputArea:focus {
+    text-align: left;    
+}
+
+.md-form {
+    height: 100%;
+    padding-top: 5px;
+}
+
+.chat-icons {
+    text-align: right;
+    padding: 0 5px;
+}
+
+.chat-icons button {
+    padding: 0 5px;
+    border: none;
+    background-color: #fff;
+}
+
+.emoji_container {
+    left: auto !important;
+    bottom: 45px;
+    top: auto !important;
+    right: 20px;
+    position: fixed !important;
+}
+
+#showHelpChatBtn, #showEmojiChatBtn, #sendChatBtn {
+    cursor: pointer;
+}
+
+#showHelpChatBtn:hover, #showEmojiChatBtn:hover, #sendChatBtn:hover {
+    color: #FECE1A;
+}
+
+/* 4. PDN modal section */
+
+.modal-content {
+    border-radius: 0;
+}
+
+.modal-title {
+    font-size: 18px;
+}
+
+.modal-body {
+    font-size: 14px;
+}
+
+/* 5. Footer */
+
+#footerSection {
+    min-height: 150px;
+    background-color: #101316;
+}
+
+#navFooterSection {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.footer-nav {
+    margin-bottom: 5px;
+}
+
+.list-inline-item a {
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.list-inline-item-active a {
+    text-decoration-line: underline;
+    text-decoration-color: #FECE1A;
+}
+
+#infoColFooterSection {
+    padding: 0;
+}
+
+#infoColFooterSection p {
+    color: #fff;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.map-footer-section {
+    height: 100%;
+    margin: 0 35px;
+    text-align: center;
+}
+
+.show-map-btn-footer {
+    border: 1px solid #fff;
+    border-radius: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.show-map-btn-footer:hover {
+    border: 1px solid #FECE1A;
+    color: #FECE1A;
+}
+
+.footer-socials {
+    padding-top: 10px;
+}
+
+.footer-social-icon {
+    color: #fff;
+    padding-right: 7px;
+    cursor: pointer;
+}
+
+.footer-social-icon:hover {
+    color: #FECE1A;
+}
+
+#addressFooterSection {
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    margin-top: -10px;
+}
+
+#addressFooterSection p {
+    margin-bottom: 8px;
+}
+
+#addressFooterSection hr {
+    height: 1px;
+    margin: 15px 0px 5px 0px;
+}
+
+#addressFooterSection a {
+    color: #fff;
+}
+
+/* 6. Adaptive */
+
+@media screen and (max-width: 525px) {
+    
+    /* Buttons */
+
+    .large-info-btn {
+        margin-top: 16px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    
+    /* Navigation adaptive */
+
+    .navbar{
+        padding: 7px 20px;
+    }
+
+    .navbar-nav {
+        padding-top: 15px;
+    }
+
+    .lc-button {
+        margin-bottom: 15px;
+    }   
+
+    .nav-item:hover {
+        border: 0;
+    }
+
+    /* Common elements */
+    
+    .section-links-body {
+        text-align: center;
+    }
+
+    /* Hide chat elements */
+
+    #chatButton {
+        display: none;
+    }
+
+    .chat-section {
+        display: none;
+    }
+
+    /* Footer */
+
+    .map-footer-section {
+        margin-top: 10px;
+    }
+
+    .footer-socials {
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 1060px) and (min-width: 992px) {
+    
+    /* Navbar section BASE ELEMENT */
+    
+    .navbar {
+        padding: 7px 20px;
+    }    
+
+    .navbar-nav {
+        padding-top: 0px;
+    }
+
+    .nav-link {
+        font-size: 11px;
+    }
+
+    .lc-button {
+        margin-bottom: 0px;
+    }
+}
